@@ -4,8 +4,8 @@ server:
 spring:
   datasource:
     url: jdbc:mysql://81.68.97.196:3306/edusystem?serverTimezone=Asia/Shanghai&characterEncoding=utf-8
-    username: root
-    password: cyc...0203
+    username: cyc
+    password: 123456
     driver-class-name: com.mysql.cj.jdbc.Driver
 
 mybatis:
