@@ -2,8 +2,8 @@ package com.example.myspring2021.bean;
 
 public class Depart {
     private String id;
-    private String depName;
-    private Integer grades;
+    private String name;
+    private Integer grade;
     public String getId() {
         return id;
     }
@@ -12,19 +12,19 @@ public class Depart {
         this.id = id;
     }
 
-    public String getDepName() {
-        return depName;
+    public String getName() {
+        return name;
     }
 
-    public void setDepName(String depName) {
-        this.depName = depName;
+    public void setName(String name) {
+        this.name = name;
     }
 
-    public Integer getGrades() {
-        return grades;
+    public Integer getGrade() {
+        return grade;
     }
 
-    public void setGrades(Integer grades) {
-        this.grades = grades;
+    public void setGrade(Integer grade) {
+        this.grade = grade;
     }
 }

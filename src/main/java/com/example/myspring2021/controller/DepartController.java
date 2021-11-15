@@ -18,7 +18,7 @@ public class DepartController {
     @Resource
     private DepartService departService = new DepartServiceImpl();
 
-    @RequestMapping(value = "/selectAll", method = RequestMethod.GET)
+    @RequestMapping(value = "/showSql", method = RequestMethod.GET)
     public List<Depart> selectAll() {
         List<Depart> list = departService.selectAll();
         return list;

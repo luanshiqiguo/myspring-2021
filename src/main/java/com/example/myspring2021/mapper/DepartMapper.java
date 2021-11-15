@@ -10,8 +10,8 @@ import java.util.List;
 public interface DepartMapper {
     @Select({
         "select",
-        "id, depName, grades",
-        "from departments"
+        "id, name, grade", // 数据表表头字段
+        "from testMysqlList" // 数据表名
     })
     List<Depart> selectAll();
 }
